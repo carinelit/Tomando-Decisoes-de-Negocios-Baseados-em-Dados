@@ -22,50 +22,49 @@ Projeto de tomada de decisoes de negocio baseadas em dados para uma grande loja 
       - ### Parte 1 - Priorizacao de Hipoteses
      
       - - Aplicacao do framework ICE (Impact x Confidence / Effort)
-        - - Aplicacao do framework RICE (Reach x Impact x Confidence / Effort)
-          - - Comparacao entre os dois rankings com visualizacao grafica
-            - - Conclusao sobre qual framework usar e por que
+      - - Aplicacao do framework RICE (Reach x Impact x Confidence / Effort)
+      - - Comparacao entre os dois rankings com visualizacao grafica
+      - - Conclusao sobre qual framework usar e por que
              
-              - ### Parte 2 - Analise do Teste A/B
+      - ### Parte 2 - Analise do Teste A/B
              
-              - - Receita acumulada e tamanho medio de pedido por grupo
-                - - Diferenca relativa na conversao acumulada (Grupo B vs Grupo A)
-                  - - Calculo de percentis 95 e 99 para deteccao de anomalias
-                    - - Grafico de dispersao de precos dos pedidos
-                      - - Testes de significancia estatistica nos dados brutos e filtrados
-                        - - Decisao final fundamentada com base nos resultados
+      - - Receita acumulada e tamanho medio de pedido por grupo
+      - - Diferenca relativa na conversao acumulada (Grupo B vs Grupo A)
+      - - Calculo de percentis 95 e 99 para deteccao de anomalias
+      - - Grafico de dispersao de precos dos pedidos
+      - - Testes de significancia estatistica nos dados brutos e filtrados
+      - - Decisao final fundamentada com base nos resultados
                          
-                          - ## Principais insights
+      - ## Principais insights
                          
-                          - - Framework RICE reordena significativamente as hipoteses em relacao ao ICE por considerar o alcance
-                            - - O grupo B apresenta diferenca estatisticamente significativa na conversao
-                              - - Apos filtragem de outliers e contaminados, os resultados se mantiveram consistentes
-                                - - Decisao final: encerrar o teste com o grupo B como lider
+      - - Framework RICE reordena significativamente as hipoteses em relacao ao ICE por considerar o alcance
+      - - O grupo B apresenta diferenca estatisticamente significativa na conversao
+      - - Apos filtragem de outliers e contaminados, os resultados se mantiveram consistentes
+      - - Decisao final: encerrar o teste com o grupo B como lider
                                  
-                                  - ## Datasets utilizados
+       - ## Datasets utilizados
                                  
-                                  - | Arquivo | Descricao |
-                                  - |--------|----------|
-                                  - | `hipoteses_nos.csv` | 9 hipoteses com Reach, Impact, Confidence e Effort |
-                                  - | `pedidos_eua.csv` | Log de pedidos com grupo A/B, receita e data |
-                                  - | `visitas_nos.csv` | Registros de visitas por grupo e data |
+      - | Arquivo | Descricao |
+      - | `hipoteses_nos.csv` | 9 hipoteses com Reach, Impact, Confidence e Effort |
+      - | `pedidos_eua.csv` | Log de pedidos com grupo A/B, receita e data |
+      - | `visitas_nos.csv` | Registros de visitas por grupo e data |
                                  
-                                  - ## Stack utilizada
+      - ## Stack utilizada
                                  
-                                  - - Python 3
-                                    - - Pandas - manipulacao e limpeza de dados
-                                      - - Matplotlib / Seaborn - visualizacao de graficos
-                                        - - SciPy - testes de significancia estatistica (Mann-Whitney)
-                                          - - Jupyter Notebook
+      - - Python 3
+      - - Pandas - manipulacao e limpeza de dados
+      - - Matplotlib / Seaborn - visualizacao de graficos
+      - - SciPy - testes de significancia estatistica (Mann-Whitney)
+      - - Jupyter Notebook
                                            
-                                            - ## Como executar
+      - ## Como executar
                                            
-                                            - ```bash
-                                              git clone https://github.com/carinelit/Tomando-Decisoes-de-Negocios-Baseados-em-Dados
-                                              cd Tomando-Decisoes-de-Negocios-Baseados-em-Dados
-                                              jupyter notebook
-                                              ```
+      - ```bash
+      git clone https://github.com/carinelit/Tomando-Decisoes-de-Negocios-Baseados-em-Dados
+      cd Tomando-Decisoes-de-Negocios-Baseados-em-Dados
+      jupyter notebook
+      ```
 
-                                              ## Portfolio
+      ## Portfolio
 
-                                              [linkedin.com/in/carinelitwinczuk](https://www.linkedin.com/in/carinelitwinczuk)
+      [linkedin.com/in/carinelitwinczuk](https://www.linkedin.com/in/carinelitwinczuk)
